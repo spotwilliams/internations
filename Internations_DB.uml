@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>d48db6d0-a409-4028-9057-77c1d68f9129.SCHEMA:homestead</OriginalElement>
+  <nodes>
+    <node x="289.0" y="39.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.groups</node>
+    <node x="117.5" y="426.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.roles</node>
+    <node x="577.3333333333334" y="172.6865671641791">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.password_resets</node>
+    <node x="0.0" y="642.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.model_has_roles</node>
+    <node x="576.1990049751245" y="39.479270315091185">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.migrations</node>
+    <node x="567.0" y="642.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.model_has_permissions</node>
+    <node x="471.75" y="426.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.permissions</node>
+    <node x="277.0" y="655.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.role_has_permissions</node>
+    <node x="0.0" y="0.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.users</node>
+    <node x="142.0" y="294.0">d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.group_has_users</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.group_has_users" target="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.groups">
+      <point x="64.0" y="-43.5" />
+      <point x="334.0" y="269.0" />
+      <point x="405.5" y="269.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.role_has_permissions" target="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.roles">
+      <point x="-67.5" y="-43.5" />
+      <point x="344.5" y="617.0" />
+      <point x="296.0" y="617.0" />
+      <point x="59.5" y="83.0" />
+    </edge>
+    <edge source="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.role_has_permissions" target="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.permissions">
+      <point x="67.5" y="-43.5" />
+      <point x="479.5" y="617.0" />
+      <point x="531.25" y="617.0" />
+      <point x="-59.5" y="83.0" />
+    </edge>
+    <edge source="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.model_has_roles" target="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.roles">
+      <point x="0.0" y="-56.5" />
+      <point x="128.5" y="617.0" />
+      <point x="177.0" y="617.0" />
+      <point x="-59.5" y="83.0" />
+    </edge>
+    <edge source="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.group_has_users" target="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.users">
+      <point x="-64.0" y="-43.5" />
+      <point x="206.0" y="269.0" />
+      <point x="134.5" y="269.0" />
+      <point x="0.0" y="122.0" />
+    </edge>
+    <edge source="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.model_has_permissions" target="d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.permissions">
+      <point x="0.0" y="-56.5" />
+      <point x="702.0" y="617.0" />
+      <point x="650.25" y="617.0" />
+      <point x="59.5" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7780645161290323" x="418.5" y="377.5" />
+  <SelectedNodes>
+    <node>d48db6d0-a409-4028-9057-77c1d68f9129.TABLE:homestead.password_resets</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
